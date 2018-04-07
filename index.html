@@ -14,21 +14,56 @@
 </head>
 
 <body>
-  <div id="navbar">
-    <nav>
+  <!-- Navbar Fixed -->
+  <nav class="navbar fixed-top navbar-light" style="background-color: #1bc2e7">
+    <a href="#" class="navbar-brand">
+        <img src="#" alt="" width="30" height="30" class="d-inline-block align-top">
+        Tell You Story
+      </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-lable="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a href="#" class="dropdown-item">action</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">other action</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input type="search" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
 
-    </nav>
-  </div>
   <div id="opening">
     <h1>Hello World</h1>
     <p>This is my first project about web-development</p>
   </div>
-  <footer>
-    <p>Copyright <strong>ArgeniaP</strong></p>
-    <div id="social-icon">
 
+  <!-- Last section of Web -->
+  <footer id="footer">
+    <p>Copyright <strong>ArgeniaP</strong></p>
+    <div class="social-icon">
+      <a href="#"><img src="#" alt="Facebook"></a>
+      <a href="#"><img src="#" alt="Twitter"></a>
+      <a href="#"><img src="#" alt="LinkedIn"></a>
+      <a href="#"><img src="#" alt="GitHub"></a>
+      <a href="#"><img src="#" alt="Instagram"></a>
     </div>
   </footer>
+
+  <!-- JQuery PopperJS Javascript -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
