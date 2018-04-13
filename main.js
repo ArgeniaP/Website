@@ -1,7 +1,7 @@
 $(document).ready(main);
 function main() {
 
-  /*$(window).scroll(function() {
+  $(window).scroll(function() {
     if ($(this).scrollTop() > 200) {
       $('.backtotop').fadeIn(200);
     } else {
@@ -14,9 +14,9 @@ function main() {
     $('html, body').animate({
       scrollTop: 0
     }, 300);
-  });*/
+  });
 }
-
+/*
 $(window).on('scroll', function() {
   if ($(this).scrollTop() > 3) {
     $('.backtotop').fadeIn(200);
@@ -26,4 +26,4 @@ $(window).on('scroll', function() {
 });
 $('.backtotop').on('click', function(){
   $('html, body').animate({scrollTop: 0}, 300);
-});
+});*/
