@@ -1,6 +1,7 @@
 * {
   font-family: 'Raleway', sans-serif;
 }
+
 nav {
   background-color: #b831e0;
 }
@@ -22,4 +23,23 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+
+.backtotop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.backtotop a {
+  width: 35px;
+  height: 35px;
+  text-indent: -2000px;
+  border-radius: 2px;
+  display: block;
+  background-image: url(https://2.bp.blogspot.com/-ljczbxdazQw/VtgH0q7YdFI/AAAAAAAADPg/utfeww9HFa4/s000/back-to-top.png);
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
 }
