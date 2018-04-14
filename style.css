@@ -23,3 +23,17 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+
+.backtotop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.backtotop a {
+  display: block;
+  text-indent: -20000px;
+  width: 35px;
+  height: 35px;
+  background-image: url("https://2.bp.blogspot.com/-ljczbxdazQw/VtgH0q7YdFI/AAAAAAAADPg/utfeww9HFa4/s000/back-to-top.png")
+}
