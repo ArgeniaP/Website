@@ -1,6 +1,21 @@
+/* For choose some selector use comma  to seperate it */
+
 * {
   font-family: 'Raleway', sans-serif;
 }
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+p {
+  text-align: justify;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
 nav {
   background-color: #b831e0;
 }
@@ -20,8 +35,8 @@ footer ul {
 }
 
 footer li img {
-  width: 32px;
-  height: 32px;
+  width: 35px;
+  height: 35px;
 }
 
 .backtotop {
