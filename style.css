@@ -1,11 +1,14 @@
 /* For choose some selector use comma  to seperate it */
-
 * {
   font-family: 'Raleway', sans-serif;
 }
 
 .selector-for-some-widget {
   box-sizing: content-box;
+}
+
+body {
+  margin-bottom: 50px;
 }
 
 p {
@@ -17,7 +20,7 @@ h1, h2, h3 {
 }
 
 nav {
-  background-color: #b831e0;
+  background-color: teal;
 }
 
 footer {
@@ -39,16 +42,23 @@ footer li img {
   height: 35px;
 }
 
+.fixed-bottom {
+  bottom: 0;
+  height: 50px;
+  line-height: 50px;
+  background-color: teal;
+}
+
 .backtotop {
   position: fixed;
   right: 10px;
-  bottom: 10px;
+  bottom: 60px;
 }
 
 .backtotop a {
   display: block;
-  text-indent: -20000px;
-  width: 35px;
+  border-radius: 2px;
+  background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==");
   height: 35px;
-  background-image: url("https://2.bp.blogspot.com/-ljczbxdazQw/VtgH0q7YdFI/AAAAAAAADPg/utfeww9HFa4/s000/back-to-top.png")
+  width: 35px;
 }
