@@ -58,7 +58,7 @@ footer li img {
 .backtotop a {
   display: block;
   border-radius: 2px;
-  background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==");
+  background-image: url("Icon Files/back-to-top.png");
   height: 35px;
   width: 35px;
 }
