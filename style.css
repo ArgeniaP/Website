@@ -19,10 +19,6 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
-nav {
-  background-color: teal;
-}
-
 footer {
   font-size: 12px;
   padding: 20px 0;
@@ -46,7 +42,6 @@ footer li img {
   bottom: 0;
   height: 50px;
   line-height: 50px;
-  background-color: teal;
 }
 
 .backtotop {
