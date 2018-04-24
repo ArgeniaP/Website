@@ -1,0 +1,27 @@
+{
+  "name": "argen-project",
+  "version": "0.0.1",
+  "description": "Learning project and trial",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArgeniaP/Website.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "bootstrap",
+    "jquery",
+    "popper.js"
+  ],
+  "author": "ArgeniaP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArgeniaP/Website/issues"
+  },
+  "homepage": "https://github.com/ArgeniaP/Website#readme"
+}
